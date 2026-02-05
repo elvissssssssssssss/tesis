@@ -10,7 +10,9 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
     ContentRootPath = Directory.GetCurrentDirectory()
 });
 
+// =========================================================
 // 1. 🔥 FIX INOTIFY (Error 139)
+// =========================================================
 builder.Configuration.Sources.Clear();
 builder.Configuration
     .SetBasePath(Directory.GetCurrentDirectory())
@@ -19,25 +21,25 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 // =========================================================
-// 🚀 LA PIEZA FALTANTE: CONFIGURAR EL PUERTO PARA RENDER
+// 2. 🚀 FIX PORT BINDING (Para que Render no dé Timed Out)
 // =========================================================
+// Render asigna un puerto dinámico. Usamos 0.0.0.0 para ser visibles externamente.
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
-// =========================================================
 
-// 2. Configurar JSON
+// 3. Servicios Base
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
 });
 
-// 3. Límite de subida (10MB)
+// 4. Límite de subida (10MB para tus fotos de tesis)
 builder.Services.Configure<FormOptions>(options =>
 {
     options.MultipartBodyLengthLimit = 10 * 1024 * 1024;
 });
 
-// 4. Conexión a MySQL (AlwaysData)
+// 5. Conexión a MySQL (AlwaysData)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 if (string.IsNullOrEmpty(connectionString))
@@ -50,14 +52,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
            .EnableSensitiveDataLogging()
            .EnableDetailedErrors());
 
-// 5. Inyección de Dependencias
+// 6. Inyección de Dependencias
 builder.Services.AddScoped<C2Service>();
 
-// 6. Configurar Swagger
+// 7. Swagger y CORS
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-// 7. CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -68,13 +68,16 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// GESTIÓN DE CARPETAS
+// =========================================================
+// 📁 GESTIÓN DE CARPETAS
+// =========================================================
 var webRoot = app.Environment.WebRootPath ?? Path.Combine(app.Environment.ContentRootPath, "wwwroot");
 var uploadsPath = Path.Combine(webRoot, "uploads");
 
 if (!Directory.Exists(webRoot)) Directory.CreateDirectory(webRoot);
 if (!Directory.Exists(uploadsPath)) Directory.CreateDirectory(uploadsPath);
 
+// Middlewares
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseStaticFiles();
