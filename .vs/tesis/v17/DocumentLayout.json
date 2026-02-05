@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,12 +98,7 @@
               "RelativeToolTip": "tesis\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T08:22:37.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-02-04T08:22:37.504Z"
             },
             {
               "$type": "Document",
@@ -115,8 +110,7 @@
               "RelativeToolTip": "tesis\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:47:24.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:47:24.585Z"
             },
             {
               "$type": "Document",
@@ -141,8 +135,7 @@
               "RelativeToolTip": "tesis\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-04T07:39:38.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:39:38.145Z"
             },
             {
               "$type": "Document",
@@ -154,8 +147,7 @@
               "RelativeToolTip": "tesis\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:36:02.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:36:02.746Z"
             },
             {
               "$type": "Document",
@@ -167,8 +159,7 @@
               "RelativeToolTip": "tesis\\Services\\C2Service.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAqwGoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:38:16.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:38:16.834Z"
             },
             {
               "$type": "Document",
@@ -180,8 +171,7 @@
               "RelativeToolTip": "tesis\\Controllers\\DevicesController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAqwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:38:34.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:38:34.252Z"
             },
             {
               "$type": "Document",
@@ -193,8 +183,7 @@
               "RelativeToolTip": "tesis\\DTOs\\CommandDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T08:21:21.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T08:21:21.333Z"
             },
             {
               "$type": "Document",
@@ -206,8 +195,7 @@
               "RelativeToolTip": "tesis\\Models\\Device.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:33:29.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:33:29.597Z"
             },
             {
               "$type": "Document",
@@ -219,8 +207,7 @@
               "RelativeToolTip": "tesis\\DTOs\\PhotoUploadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:49:13.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:49:13.333Z"
             },
             {
               "$type": "Document",
@@ -232,8 +219,7 @@
               "RelativeToolTip": "tesis\\tesis.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-02-04T07:46:03.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:46:03.74Z"
             },
             {
               "$type": "Document",
@@ -245,8 +231,7 @@
               "RelativeToolTip": "tesis\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:21:50.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:21:50.032Z"
             },
             {
               "$type": "Document",
@@ -258,8 +243,7 @@
               "RelativeToolTip": "tesis\\DTOs\\DeviceDtos.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:37:54.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:37:54.4Z"
             },
             {
               "$type": "Document",
@@ -271,8 +255,7 @@
               "RelativeToolTip": "tesis\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:35:07.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:35:07.96Z"
             },
             {
               "$type": "Document",
@@ -284,8 +267,7 @@
               "RelativeToolTip": "tesis\\Models\\ExfiltratedPhoto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:34:31.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:34:31.991Z"
             },
             {
               "$type": "Document",
@@ -297,21 +279,23 @@
               "RelativeToolTip": "tesis\\Models\\CommandQueue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:34:06.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:34:06.368Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "tesis",
+              "Title": "tesis.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\tesis.csproj",
               "RelativeDocumentMoniker": "tesis\\tesis.csproj",
               "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\tesis.csproj",
               "RelativeToolTip": "tesis\\tesis.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-04T07:33:11.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:33:11.849Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
