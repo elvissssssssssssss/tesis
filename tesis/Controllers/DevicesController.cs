@@ -44,6 +44,35 @@ namespace tesis.Controllers
 
         // POST: api/devices/upload-photo
         // Acepta Multipart/Form-Data
+        // GET: api/devices/{id}/files
+        [HttpGet("{id}/files")]
+        public async Task<IActionResult> GetDeviceFiles(string id)
+        {
+            // Llamamos al servicio para obtener los archivos de la DB
+            var files = await _c2Service.GetFilesByDeviceAsync(id);
+
+            if (files == null || !files.Any())
+                return NotFound("No se encontraron archivos para este dispositivo.");
+
+            return Ok(files); // Retorna el JSON para Angular
+        }
+        // POST: api/devices/file-list
+        [HttpPost("file-list")]
+        public async Task<IActionResult> ReceiveFileList([FromBody] FileListDto dto)
+        {
+            // 1. Validar que el dispositivo existe
+            if (string.IsNullOrEmpty(dto.deviceId))
+                return BadRequest("El DeviceId es obligatorio.");
+
+            // 2. Procesar la lista de archivos a través del servicio
+            // Este método guardará la estructura en tu base de datos MySQL
+            var success = await _c2Service.UpdateDeviceFileMapAsync(dto);
+
+            if (!success)
+                return NotFound("Dispositivo no encontrado en la base de datos.");
+
+            return Ok(new { message = "Estructura de archivos actualizada correctamente" });
+        }
         // POST: api/devices/upload-photo
         [HttpPost("upload-photo")]
         public async Task<IActionResult> UploadPhoto([FromForm] PhotoUploadDto dto)

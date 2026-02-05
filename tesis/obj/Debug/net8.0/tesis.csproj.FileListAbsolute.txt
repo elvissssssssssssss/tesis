@@ -45,3 +45,4 @@ C:\Users\USER\Videos\tesis\tesis\tesis\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\USER\Videos\tesis\tesis\tesis\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\USER\Videos\tesis\tesis\tesis\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\USER\Videos\tesis\tesis\tesis\bin\Debug\net8.0\tesis.staticwebassets.runtime.json
+C:\Users\USER\Videos\tesis\tesis\tesis\obj\Debug\net8.0\tesis.sourcelink.json

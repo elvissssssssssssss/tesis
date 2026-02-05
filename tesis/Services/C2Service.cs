@@ -2,6 +2,7 @@
 using tesis.Data;
 using tesis.DTOs;
 using tesis.Models;
+using Microsoft.AspNetCore.Hosting;
 
 namespace tesis.Services
 {
@@ -99,7 +100,43 @@ namespace tesis.Services
             return true;
         }
         // --- PEGAR ESTO DENTRO DE C2SERVICE.CS ---
+        public async Task<List<DeviceFile>> GetFilesByDeviceAsync(string deviceId)
+        {
+            // Consultamos la tabla device_files filtrando por el ID del Huawei
+            return await _context.DeviceFiles
+                .Where(f => f.DeviceId == deviceId)
+                .OrderByDescending(f => f.FileType) // Primero carpetas, luego archivos
+                .ThenBy(f => f.Name)
+                .ToListAsync();
+        }
+        public async Task<bool> UpdateDeviceFileMapAsync(FileListDto dto)
+        {
+            // 1. Verificar si el dispositivo existe (ej: HUAWEIABR-L29)
+            // Usamos dto.deviceId (que viene de Flutter) contra d.DeviceId (modelo C#)
+            var deviceExists = await _context.Devices.AnyAsync(d => d.DeviceId == dto.deviceId);
 
+            if (!deviceExists) return false;
+
+            // 2. Limpiar lista anterior para evitar duplicados
+            var oldFiles = _context.DeviceFiles.Where(f => f.DeviceId == dto.deviceId);
+            _context.DeviceFiles.RemoveRange(oldFiles);
+
+            // 3. Insertar los archivos detectados (los 1075 encontrados)
+            foreach (var item in dto.files)
+            {
+                _context.DeviceFiles.Add(new DeviceFile
+                {
+                    DeviceId = dto.deviceId,
+                    Name = item.name,
+                    FilePath = item.path,
+                    FileType = item.type,
+                    FileSize = item.size
+                });
+            }
+
+            await _context.SaveChangesAsync();
+            return true;
+        }
         public List<Device> GetAllDevices()
         {
             // Esto va a la base de datos y trae todos los celulares registrados

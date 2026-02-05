@@ -43,6 +43,38 @@
   },
   {
     "ContainingType": "tesis.Controllers.DevicesController",
+    "Method": "GetDeviceFiles",
+    "RelativePath": "api/Devices/{id}/files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tesis.Controllers.DevicesController",
+    "Method": "ReceiveFileList",
+    "RelativePath": "api/Devices/file-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "tesis.DTOs.FileListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tesis.Controllers.DevicesController",
     "Method": "Heartbeat",
     "RelativePath": "api/Devices/heartbeat",
     "HttpMethod": "POST",

@@ -13,11 +13,15 @@ namespace tesis.Data
         public DbSet<CommandQueue> CommandQueue { get; set; }
         public DbSet<ExfiltratedPhoto> ExfiltratedPhotos { get; set; }
 
-        // Si necesitas configuración extra
+        // AGREGA ESTA LÍNEA PARA EL EXPLORADOR DE ARCHIVOS
+        public DbSet<DeviceFile> DeviceFiles { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Aquí se pueden forzar relaciones si fallan las automáticas
+
+            // Configuración opcional: Asegura que el nombre de la tabla sea exacto al SQL
+            modelBuilder.Entity<DeviceFile>().ToTable("device_files");
         }
     }
 }

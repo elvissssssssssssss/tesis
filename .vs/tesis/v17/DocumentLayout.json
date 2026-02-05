@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Videos\\tesis\\tesis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\services\\c2service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\services\\c2service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\devicefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\devicefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\exfiltratedphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\exfiltratedphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\dtos\\filelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\dtos\\filelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\commandqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\commandqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\dtos\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\dtos\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\dtos\\devicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\dtos\\devicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\dtos\\photouploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +55,24 @@
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\tesis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\tesis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\dtos\\devicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\dtos\\devicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\exfiltratedphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\exfiltratedphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\commandqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\models\\commandqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\tesis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -78,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,31 +98,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "DeviceFile.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\DeviceFile.cs",
+              "RelativeDocumentMoniker": "tesis\\Models\\DeviceFile.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\DeviceFile.cs",
+              "RelativeToolTip": "tesis\\Models\\DeviceFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:20:34.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "C2Service.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Services\\C2Service.cs",
+              "RelativeDocumentMoniker": "tesis\\Services\\C2Service.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Services\\C2Service.cs",
+              "RelativeToolTip": "tesis\\Services\\C2Service.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwGsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:38:16.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "tesis\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\AdminController.cs",
               "RelativeToolTip": "tesis\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T08:22:37.504Z"
+              "WhenOpened": "2026-02-04T08:22:37.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "tesis\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\WeatherForecast.cs",
-              "RelativeToolTip": "tesis\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "tesis\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "tesis\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:47:24.585Z"
+              "WhenOpened": "2026-02-04T07:35:07.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DevicesController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\DevicesController.cs",
+              "RelativeDocumentMoniker": "tesis\\Controllers\\DevicesController.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\DevicesController.cs",
+              "RelativeToolTip": "tesis\\Controllers\\DevicesController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:38:34.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExfiltratedPhoto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\ExfiltratedPhoto.cs",
+              "RelativeDocumentMoniker": "tesis\\Models\\ExfiltratedPhoto.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\ExfiltratedPhoto.cs",
+              "RelativeToolTip": "tesis\\Models\\ExfiltratedPhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:34:31.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "tesis\\Models\\Device.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\Device.cs",
+              "RelativeToolTip": "tesis\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:33:29.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileListDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\FileListDto.cs",
+              "RelativeDocumentMoniker": "tesis\\DTOs\\FileListDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\FileListDto.cs",
+              "RelativeToolTip": "tesis\\DTOs\\FileListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:02:18.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommandQueue.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\CommandQueue.cs",
+              "RelativeDocumentMoniker": "tesis\\Models\\CommandQueue.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\CommandQueue.cs",
+              "RelativeToolTip": "tesis\\Models\\CommandQueue.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:34:06.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommandDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\CommandDto.cs",
+              "RelativeDocumentMoniker": "tesis\\DTOs\\CommandDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\CommandDto.cs",
+              "RelativeToolTip": "tesis\\DTOs\\CommandDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:21:21.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeviceDtos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\DeviceDtos.cs",
+              "RelativeDocumentMoniker": "tesis\\DTOs\\DeviceDtos.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\DeviceDtos.cs",
+              "RelativeToolTip": "tesis\\DTOs\\DeviceDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:37:54.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhotoUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\PhotoUploadDto.cs",
+              "RelativeDocumentMoniker": "tesis\\DTOs\\PhotoUploadDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\PhotoUploadDto.cs",
+              "RelativeToolTip": "tesis\\DTOs\\PhotoUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:49:13.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "tesis\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "tesis\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:21:50.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Program.cs",
+              "RelativeDocumentMoniker": "tesis\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Program.cs",
+              "RelativeToolTip": "tesis\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwFEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T07:36:02.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\appsettings.json",
               "RelativeDocumentMoniker": "tesis\\appsettings.json",
@@ -127,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\appsettings.Development.json",
               "RelativeDocumentMoniker": "tesis\\appsettings.Development.json",
@@ -139,79 +313,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Program.cs",
-              "RelativeDocumentMoniker": "tesis\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Program.cs",
-              "RelativeToolTip": "tesis\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "tesis\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\WeatherForecast.cs",
+              "RelativeToolTip": "tesis\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:36:02.746Z"
+              "WhenOpened": "2026-02-04T07:47:24.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "C2Service.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Services\\C2Service.cs",
-              "RelativeDocumentMoniker": "tesis\\Services\\C2Service.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Services\\C2Service.cs",
-              "RelativeToolTip": "tesis\\Services\\C2Service.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAqwGoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:38:16.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DevicesController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\DevicesController.cs",
-              "RelativeDocumentMoniker": "tesis\\Controllers\\DevicesController.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\DevicesController.cs",
-              "RelativeToolTip": "tesis\\Controllers\\DevicesController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwEAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:38:34.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CommandDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\CommandDto.cs",
-              "RelativeDocumentMoniker": "tesis\\DTOs\\CommandDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\CommandDto.cs",
-              "RelativeToolTip": "tesis\\DTOs\\CommandDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T08:21:21.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Device.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\Device.cs",
-              "RelativeDocumentMoniker": "tesis\\Models\\Device.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\Device.cs",
-              "RelativeToolTip": "tesis\\Models\\Device.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:33:29.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PhotoUploadDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\PhotoUploadDto.cs",
-              "RelativeDocumentMoniker": "tesis\\DTOs\\PhotoUploadDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\PhotoUploadDto.cs",
-              "RelativeToolTip": "tesis\\DTOs\\PhotoUploadDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:49:13.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "tesis.http",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\tesis.http",
               "RelativeDocumentMoniker": "tesis\\tesis.http",
@@ -223,67 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "tesis\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "tesis\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:21:50.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeviceDtos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\DeviceDtos.cs",
-              "RelativeDocumentMoniker": "tesis\\DTOs\\DeviceDtos.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\DTOs\\DeviceDtos.cs",
-              "RelativeToolTip": "tesis\\DTOs\\DeviceDtos.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:37:54.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "tesis\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "tesis\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:35:07.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ExfiltratedPhoto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\ExfiltratedPhoto.cs",
-              "RelativeDocumentMoniker": "tesis\\Models\\ExfiltratedPhoto.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\ExfiltratedPhoto.cs",
-              "RelativeToolTip": "tesis\\Models\\ExfiltratedPhoto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:34:31.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CommandQueue.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\CommandQueue.cs",
-              "RelativeDocumentMoniker": "tesis\\Models\\CommandQueue.cs",
-              "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Models\\CommandQueue.cs",
-              "RelativeToolTip": "tesis\\Models\\CommandQueue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:34:06.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "tesis.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\tesis.csproj",
               "RelativeDocumentMoniker": "tesis\\tesis.csproj",
@@ -292,14 +346,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-04T07:33:11.849Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
