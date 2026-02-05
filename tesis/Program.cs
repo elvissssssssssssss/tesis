@@ -10,30 +10,34 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
     ContentRootPath = Directory.GetCurrentDirectory()
 });
 
-// =========================================================
-// 🔥 SOLUCIÓN AL ERROR 139 (INOTIFY LIMIT)
-// =========================================================
-builder.Configuration.Sources.Clear(); // Limpiamos los watchers automáticos
+// 1. 🔥 FIX INOTIFY (Error 139)
+builder.Configuration.Sources.Clear();
 builder.Configuration
     .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false) // <--- DESACTIVADO
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false)
     .AddEnvironmentVariables();
+
+// =========================================================
+// 🚀 LA PIEZA FALTANTE: CONFIGURAR EL PUERTO PARA RENDER
+// =========================================================
+var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 // =========================================================
 
-// 1. Configurar JSON (camelCase vital para Angular/Flutter)
+// 2. Configurar JSON
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
 });
 
-// 2. Aumentar límite de subida a 10MB (Para evidencias HD)
+// 3. Límite de subida (10MB)
 builder.Services.Configure<FormOptions>(options =>
 {
     options.MultipartBodyLengthLimit = 10 * 1024 * 1024;
 });
 
-// 3. Conexión a MySQL (AlwaysData)
+// 4. Conexión a MySQL (AlwaysData)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 if (string.IsNullOrEmpty(connectionString))
@@ -46,21 +50,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
            .EnableSensitiveDataLogging()
            .EnableDetailedErrors());
 
-// 4. Inyección de Dependencias
+// 5. Inyección de Dependencias
 builder.Services.AddScoped<C2Service>();
 
-// 5. Configurar Swagger
+// 6. Configurar Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// 6. CORS
+// 7. CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+        policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
     });
 });
 
@@ -73,10 +75,8 @@ var uploadsPath = Path.Combine(webRoot, "uploads");
 if (!Directory.Exists(webRoot)) Directory.CreateDirectory(webRoot);
 if (!Directory.Exists(uploadsPath)) Directory.CreateDirectory(uploadsPath);
 
-// SWAGGER siempre visible
 app.UseSwagger();
 app.UseSwaggerUI();
-
 app.UseStaticFiles();
 app.UseRouting();
 app.UseCors("AllowAll");
