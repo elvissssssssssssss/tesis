@@ -75,6 +75,22 @@
   },
   {
     "ContainingType": "tesis.Controllers.DevicesController",
+    "Method": "GetPhotos",
+    "RelativePath": "api/Devices/get-photos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "tesis.DTOs.HeartbeatDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tesis.Controllers.DevicesController",
     "Method": "Heartbeat",
     "RelativePath": "api/Devices/heartbeat",
     "HttpMethod": "POST",
