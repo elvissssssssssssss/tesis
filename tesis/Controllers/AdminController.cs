@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using tesis.Services;
-using System; // Necesario para DateTime
+using System;
 using System.Threading.Tasks;
 
 namespace tesis.Controllers
 {
-    [Route("api/[controller]")] // Esto responde a: api/Admin
+    [Route("api/[controller]")] // Ruta base: api/Admin
     [ApiController]
     public class AdminController : ControllerBase
     {
@@ -16,6 +16,7 @@ namespace tesis.Controllers
             _c2Service = c2Service;
         }
 
+      
         [HttpGet("devices")]
         public IActionResult GetDevices()
         {
@@ -23,6 +24,7 @@ namespace tesis.Controllers
             return Ok(devices);
         }
 
+        // --- 2. FUNCIÓN ANTIGUA (Sigue funcionando) ---
         [HttpPost("send-command")]
         public async Task<IActionResult> SendCommand([FromBody] DTOs.CommandDto dto)
         {
@@ -31,11 +33,10 @@ namespace tesis.Controllers
             return Ok(new { message = "Orden enviada" });
         }
 
-
+        // --- 3. NUEVA FUNCIÓN (Agregada sin tocar las otras) ---
         [HttpGet("health")]
         public IActionResult HealthCheck()
         {
-
             return Ok(new { status = "Online", time = DateTime.Now });
         }
     }
