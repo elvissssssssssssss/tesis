@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Videos\\tesis\\tesis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\services\\c2service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\services\\c2service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\tesis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\tesis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\services\\c2service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|solutionrelative:tesis\\services\\c2service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB45CF92-12FF-4EA1-91CB-D9242DD739B4}|tesis\\tesis.csproj|c:\\users\\user\\videos\\tesis\\tesis\\tesis\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DevicesController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\DevicesController.cs",
               "RelativeDocumentMoniker": "tesis\\Controllers\\DevicesController.cs",
               "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\DevicesController.cs",
               "RelativeToolTip": "tesis\\Controllers\\DevicesController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAFYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAA+wHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T07:38:34.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Program.cs",
               "RelativeDocumentMoniker": "tesis\\Program.cs",
@@ -124,20 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "C2Service.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Services\\C2Service.cs",
               "RelativeDocumentMoniker": "tesis\\Services\\C2Service.cs",
               "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Services\\C2Service.cs",
               "RelativeToolTip": "tesis\\Services\\C2Service.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwMQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAAAOsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T07:38:16.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "tesis\\Controllers\\WeatherForecastController.cs",
@@ -145,8 +145,7 @@
               "RelativeToolTip": "tesis\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:21:50.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:21:50.032Z"
             },
             {
               "$type": "Document",
@@ -162,24 +161,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "tesis\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\Controllers\\AdminController.cs",
               "RelativeToolTip": "tesis\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T08:22:37.504Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "tesis.http",
               "DocumentMoniker": "C:\\Users\\USER\\Videos\\tesis\\tesis\\tesis\\tesis.http",
               "RelativeDocumentMoniker": "tesis\\tesis.http",
@@ -187,8 +182,7 @@
               "RelativeToolTip": "tesis\\tesis.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-02-04T07:46:03.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:46:03.74Z"
             },
             {
               "$type": "Document",
@@ -333,6 +327,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-04T07:33:11.849Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",

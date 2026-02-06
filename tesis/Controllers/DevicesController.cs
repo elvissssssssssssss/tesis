@@ -90,6 +90,13 @@ namespace tesis.Controllers
 
             return Ok(new { message = "Todas las fotos han sido eliminadas correctamente." });
         }
+        // En AdminController.cs
+        [HttpGet("health")]
+        public IActionResult HealthCheck()
+        {
+            // Solo responde OK, no gasta recursos
+            return Ok(new { status = "Online", time = DateTime.Now });
+        }
 
         [HttpPost("get-photos")]
         public async Task<IActionResult> GetPhotos([FromBody] HeartbeatDto dto)
