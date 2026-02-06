@@ -59,6 +59,22 @@
   },
   {
     "ContainingType": "tesis.Controllers.DevicesController",
+    "Method": "DeletePhotos",
+    "RelativePath": "api/Devices/{id}/photos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "tesis.Controllers.DevicesController",
     "Method": "ReceiveFileList",
     "RelativePath": "api/Devices/file-list",
     "HttpMethod": "POST",

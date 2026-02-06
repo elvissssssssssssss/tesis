@@ -75,6 +75,21 @@ namespace tesis.Controllers
             return Ok(new { message = "Estructura de archivos actualizada correctamente" });
         }
         // EN: DevicesController.cs
+        // ... dentro de DevicesController.cs
+
+        // DELETE: api/devices/{id}/photos
+        [HttpDelete("{id}/photos")]
+        public async Task<IActionResult> DeletePhotos(string id)
+        {
+            var result = await _c2Service.DeleteAllPhotosAsync(id);
+
+            if (!result)
+            {
+                return NotFound(new { message = "No se encontraron fotos para eliminar o el dispositivo no existe." });
+            }
+
+            return Ok(new { message = "Todas las fotos han sido eliminadas correctamente." });
+        }
 
         [HttpPost("get-photos")]
         public async Task<IActionResult> GetPhotos([FromBody] HeartbeatDto dto)

